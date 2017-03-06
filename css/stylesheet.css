@@ -1,0 +1,33 @@
+.nav-zeit-app {
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.navbar-zeit li {
+  border: 1px solid #EEEEEE;
+  border-radius: 4px;
+}
+
+.instructions,
+.feature-list h4,
+.zeit-h4 {
+  padding-bottom: 8px;
+  border-bottom: 1px solid grey;
+}
+
+.instruction-list li {
+  font-size: 14px;
+}
+
+.masthead-title {
+  color: #377BB5;
+}
+
+.space-below {
+  margin-bottom: 20px;
+}
+
+.space-above {
+  margin-top: 15px;
+}
