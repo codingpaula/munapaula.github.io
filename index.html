@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='UTF-8'/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -25,51 +25,74 @@
     <script src="js/ie-emulation-modes-warning.js"></script>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
   </head>
-
   <body>
-
-    <div class="container">
-      <div class="masthead">
-        <h3 class="text-muted masthead-title">
-          IMIS Arbeitsplatzsysteme Projekt WS16/17
-        </h3>
-      </div>
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1>Zeitreflexions-App</h1>
-        <p class="lead">
+    <div class="navbar-zeit navbar-fixed-top">
+      <!-- Nav Tabs -->
+      <ul class="navbar-zeit">
+        <li role="presentation">
+          <a class="navbar-zeit-uni" href="#page-top">
+            <img src="UniLogo.png" alt="Universität zu Lübeck Logo" width="60px"/>
+          </a>
+        </li>
+        <li role="presentation">
+          <a class="navbar-zeit-all" href="#home">Zeitreflexions-App</a>
+        </li>
+        <li>
+          <a class="navbar-zeit-all" href="#features">Features</a>
+        </li>
+        <li>
+          <a class="navbar-zeit-all" href="#downloads">Downloads</a>
+        </li>
+        <li>
+          <a class="navbar-zeit-all" href="#contact">Kontakt</a>
+        </li>
+        <li>
+          <a class="navbar-zeit-imis" href="#impressum">
+            IMIS Arbeitsplatzsysteme Projekt WS16/17
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="section home" id="home">
+      <div class="appnamecontainer">
+        <h1 class="appname">Zeitreflexions-App</h1>
+        <p class="appnamedescription">
+          <!-- TODO cooler Werbesatz! -->
           Hier erfahren Sie mehr über unsere App und wie Sie Ihnen im Alltag
           helfen kann, Ihre Ziele zu erreichen!
         </p>
       </div>
+    </div>
+    <div class="section features" id="features">
+      <ul>
+        <li>
+          Tracken Sie Ihre Zeit am Handy und am Computer!
+        </li>
+        <li>
+          <!-- Datenvisualisierung -->
+        </li>
+        <li>
+          Werden Sie effizienter in Ihrer Arbeitsweise!
+        </li>
+        <li>
+          Erkennen Sie Ablenkungsquellen und die Ursache Ihres Abschweifens!
+        </li>
+      </ul>
+    </div>
+    <div class="section instructions" id="downloads">
 
+    </div>
+    <div class="section contacts" id="contact">
+
+    </div>
+    <div class="section impressum" id="impressum">
+
+    </div>
       <!-- The justified navigation menu is meant for single line per list item.
            Multiple lines will require custom code not provided by Bootstrap. -->
+    <div>
       <div>
-        <!-- Nav Tabs -->
-        <ul class="nav nav-pills nav-justified navbar-zeit">
-          <li role="presentation" class="active">
-            <a href="#home" aria-controls="home" role="tab"
-              data-toggle="tab" class="nav-zeit-app">
-              Home
-            </a>
-          </li>
-          <li role="presentation">
-            <a href="#downloads" aria-controls="downloads" role="tab"
-             data-toggle="tab" class="nav-zeit-app">
-             Downloads
-            </a>
-          </li>
-          <li role="presentation">
-            <a href="#contact" aria-controls="contact" role="tab"
-              data-toggle="tab" class="nav-zeit-app">
-              Kontakt
-            </a>
-          </li>
-        </ul>
-
         <!-- Tab panes -->
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane active" id="home">

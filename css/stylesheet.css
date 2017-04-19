@@ -1,12 +1,81 @@
+body {
+  background-color: #B3BFCF;
+  padding-top: 100px;
+}
+
+.section {
+  padding: 10px 20px;
+}
+
+.home {
+  background-color: #728B56;
+  padding-top: 200px;
+  padding-bottom: 160px;
+}
+
+.features {
+  background-color: #E6F2F3;
+  padding-top: 120px;
+  height: 2000px;
+}
+
+.instructions {
+  background-color: #C6262C;
+  height: 2000px;
+}
+
+.contacts {
+  background-color: #B3BFCF;
+  height: 2000px;
+}
+
+.impressum {
+  background-color: #EEE;
+  height: 100px;
+}
+
 .nav-zeit-app {
   font-size: 20px;
   font-weight: lighter;
   letter-spacing: 2px;
 }
 
+.navbar-zeit {
+  list-style-type: none;
+  height: 100px;
+  background-color: #064B59;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  opacity: 0.95;
+}
+
+.navbar-zeit-all {
+  float: left;
+  width: 15%;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.navbar-zeit-uni {
+  float: left;
+  width: 8%;
+}
+
+.navbar-zeit-imis {
+  float: right;
+  font-size: 18px;
+  width: 20%;
+}
+
 .navbar-zeit li a {
-  border: 1px solid #EEEEEE;
-  border-radius: 4px;
+  margin: 20px 0 10px 10px;
+  color: #EEE;
+}
+
+.navbar-zeit li a:hover {
+  text-decoration: none;
+  color: #B3BFCF;
 }
 
 .instructions,
@@ -30,4 +99,23 @@
 
 .space-above {
   margin-top: 15px;
+}
+
+.appnamecontainer {
+  width: 60%;
+  margin: auto;
+}
+
+.appname {
+  color: #EEE;
+  /* text-align: center; */
+  font-size: 80px;
+  font-weight: 300;
+}
+
+.appnamedescription {
+  /* text-align: center; */
+  color: #EEE;
+  font-size: 40px;
+  font-weight: 200;
 }
