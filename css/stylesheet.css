@@ -88,6 +88,10 @@ body {
   font-size: 100px;
 }
 
+.diagramm-header {
+  margin-top: 20px;
+}
+
 .diagramm-margin {
   margin-bottom: 50px;
 }
