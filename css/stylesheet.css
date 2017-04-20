@@ -32,7 +32,6 @@ body {
 
 .impressum {
   background-color: #EEE;
-  height: 100px;
 }
 
 .nav-zeit-app {
@@ -166,4 +165,8 @@ body {
   color: #EEE;
   font-size: 40px;
   font-weight: 200;
+}
+
+.credits {
+  margin-top: 50px;
 }
