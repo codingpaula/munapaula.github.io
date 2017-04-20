@@ -96,9 +96,13 @@ body {
   text-align: center;
 }
 
+.feature-center h3 {
+  margin-bottom: 20px;
+}
+
 .feature-p {
   text-align: left;
-  padding-left: 100px;
+  padding-left: 10px;
 }
 
 .instructions-header,
