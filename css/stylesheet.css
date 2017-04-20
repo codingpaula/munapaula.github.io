@@ -78,6 +78,15 @@ body {
   color: #B3BFCF;
 }
 
+.icon {
+  margin: 20px auto;
+  font-size: 100px;
+}
+
+.feature-stuff {
+  text-align: center;
+}
+
 .instructions,
 .feature-list h4,
 .zeit-h4 {
