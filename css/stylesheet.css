@@ -4,7 +4,7 @@ body {
 }
 
 .section {
-  padding: 10px 20px;
+  padding: 120px 100px 50px 100px;
 }
 
 .home {
@@ -14,19 +14,18 @@ body {
 }
 
 .features {
-  background-color: #E6F2F3;
+  background-color: #EEE;
   padding-top: 120px;
-  height: 2000px;
 }
 
 .instructions {
-  background-color: #C6262C;
-  height: 2000px;
+  background-color: #E9E9E9;
+  padding: 120px 100px 50px 100px;
 }
 
 .contacts {
   background-color: #B3BFCF;
-  height: 2000px;
+  padding-top: 120px;
 }
 
 .impressum {
@@ -87,15 +86,27 @@ body {
   text-align: center;
 }
 
-.instructions,
+.feature-p {
+  text-align: left;
+  padding-left: 100px;
+}
+
+.instructions-header,
 .feature-list h4,
 .zeit-h4 {
   padding-bottom: 8px;
+  padding-top: 8px;
   border-bottom: 1px solid grey;
 }
 
 .instruction-list li {
-  font-size: 14px;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.download-link {
+  display: block;
+  margin-bottom: 8px;
 }
 
 .masthead-title {
