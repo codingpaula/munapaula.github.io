@@ -148,6 +148,10 @@ body {
   margin-top: 15px;
 }
 
+.space-above-a-lot {
+  margin-top: 60px;
+}
+
 .appnamecontainer {
   width: 60%;
   margin: auto;
