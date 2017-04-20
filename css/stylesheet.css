@@ -1,4 +1,5 @@
 body {
+  font-size: 16px;
   background-color: #B3BFCF;
   padding-top: 100px;
 }
@@ -19,12 +20,13 @@ body {
 }
 
 .instructions {
-  background-color: #E9E9E9;
+  background-color: #D3BDB0;
   padding: 120px 100px 50px 100px;
 }
 
 .contacts {
-  background-color: #B3BFCF;
+  background-color: #686963;
+  color: #EEE;
   padding-top: 120px;
 }
 
@@ -77,12 +79,20 @@ body {
   color: #B3BFCF;
 }
 
+.caption {
+  margin-top: 4px;
+}
+
 .icon {
   margin: 20px auto;
   font-size: 100px;
 }
 
-.feature-stuff {
+.diagramm-margin {
+  margin-bottom: 50px;
+}
+
+.feature-center {
   text-align: center;
 }
 
@@ -99,14 +109,24 @@ body {
   border-bottom: 1px solid grey;
 }
 
+.instruction-list {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
 .instruction-list li {
   font-size: 16px;
   margin: 5px 0;
 }
 
+.instruction-list li span {
+  font-weight: normal;
+}
+
 .download-link {
   display: block;
   margin-bottom: 8px;
+  width: 100px;
 }
 
 .masthead-title {
